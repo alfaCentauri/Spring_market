@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@Table(name = "categorias")
 public class Categoria {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -11,7 +12,7 @@ public class Categoria {
     private Integer idCategoria;
 
     private String descripcion;
-    private Integer estado;
+    private boolean estado;
 
     @OneToMany(mappedBy = "categoria")
     private List<Producto> productos;
@@ -32,11 +33,11 @@ public class Categoria {
         this.descripcion = descripcion;
     }
 
-    public Integer getEstado() {
+    public boolean getEstado() {
         return estado;
     }
 
-    public void setEstado(Integer estado) {
+    public void setEstado(boolean estado) {
         this.estado = estado;
     }
 }
