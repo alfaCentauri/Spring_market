@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>com.alfaCentauri</groupId>
 	<artifactId>online-shop</artifactId>
-	<version>0.1.0</version>
+	<version>1.0.0</version>
 	<name>online-shop</name>
-	<description>Demostración de Spring Boot para la creación de una tienda online.</description>
+	<description>Demostración de Spring Boot para la creación de una tienda online, utilizando Postgres.</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
