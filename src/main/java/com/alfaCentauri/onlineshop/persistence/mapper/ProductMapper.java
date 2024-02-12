@@ -1,7 +1,7 @@
 package com.alfaCentauri.onlineshop.persistence.mapper;
 
-import com.platzi.market.domain.Product;
-import com.platzi.market.persistence.entity.Producto;
+import com.alfaCentauri.onlineshop.domain.dto.Product;
+import com.alfaCentauri.onlineshop.persistence.entity.Producto;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
